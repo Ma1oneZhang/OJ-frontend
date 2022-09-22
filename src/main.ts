@@ -3,7 +3,6 @@ import './style.css'
 import App from './App.vue'
 import router from './router'
 import mitt from 'mitt'
-
 const app = createApp(App);
 app.config.globalProperties.emitter = mitt()
 
